@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My E-Newspaper</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f5f5f5;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1a237e;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0px 0px 5px lightgray;
+        }
+
+        .breaking {
+            color: red;
+        }
+
+        .highlight {
+            color: green;
+        }
+
+        .weather {
+            color: orange;
+        }
+
+        .read {
+            color: purple;
+        }
+
+        pre {
+            background: #eee;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <h1>📰 My Daily News</h1>
+
+    <!-- Breaking News -->
+    <div class="box">
+        <h2 class="breaking">Breaking News</h2>
+        <p>
+            <b>Technology</b> is growing <i>rapidly</i>.
+            Students are learning <u>HTML</u>, <b>CSS</b>, and <i>JavaScript</i>.
+        </p>
+    </div>
+
+    <!-- Today's Highlight -->
+    <div class="box">
+        <h2 class="highlight">Today's Highlight</h2>
+        <p>
+            Water formula is H<sub>2</sub>O and Einstein said E = mc<sup>2</sup>.
+        </p>
+
+        <small>Small text</small><br>
+        <big>Big text</big><br><br>
+
+        <del>Old news</del> → Updated news!
+    </div>
+
+    <!-- Weather Report -->
+    <div class="box">
+        <h2 class="weather">Weather Report</h2>
+        <pre>
+City       Temp
+Bangalore  28°C
+Delhi      35°C
+Mumbai     30°C
+        </pre>
+    </div>
+
+    <!-- Read More -->
+    <div class="box">
+        <h2 class="read">Read More</h2>
+        <p>
+            Visit <a href="https://www.bbc.com/news" target="_blank">BBC News</a>
+        </p>
+    </div>
+
+</body>
+</html>
