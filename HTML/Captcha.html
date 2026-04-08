@@ -11,12 +11,32 @@
 
     <form>
         <label for="captcha">Enter Captcha: </label>
-        <input type="text" id="captcha">
+        <input type="text" id="captcha" placeholder="Enter Captcha Here" name="captcha"> 
         <br>
         <br>
 
-        <input type="submit">
-        <input type="reset" value="cancel">
+        <label for="username">UserName:</label>
+        <input type = "text" id = "username" placeholder="Enter UserName Here" name="username">
+        <br>
+        <br>
+
+        <label>Email :</label>
+        <input type="email" name="email">
+
+        <br>
+        <br>
+
+        <label>Password: <span style="color:red;">*</span></label>
+        <input type="password" name="pwd" required>
+
+        <br> 
+        <br>
+
+        <input type="submit"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Cancel">
+
+         <button type="reset">Cancel Button</button>
+
     </form>
 
 </body>
